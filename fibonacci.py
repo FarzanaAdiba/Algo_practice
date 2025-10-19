@@ -27,8 +27,8 @@ if __name__ == "__main__":
 #for printing the sequences:
 def fib_seq(n):
     memo={}
-    for i in range(n):
-        print(fib_memo(i, memo), end=" ")
+    seq=[fib_memo(i, memo) for i in range(n)]
+    print(", ".join(map(str, seq)))
         
 val=int(input("val = "))
 fib_seq(val)
