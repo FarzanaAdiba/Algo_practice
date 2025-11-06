@@ -1,4 +1,5 @@
-#given the cost and cost[i] is the cost of ith step, return the minimum cost to reach the top of the floor
+#given the cost and cost[i] is the cost of ith step, 
+# return the minimum cost to reach the top of the floor
  
 """
 Example 1:

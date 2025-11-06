@@ -22,3 +22,8 @@ if __name__ == "__main__":
 # because we have two nested loops. 
 # The outer loop runs n times and the inner loop also 
 # runs up to n times in the worst case, leading to n * n = n^2 operations.
+'''
+Here if dp[i]=1, then elemnt is 10, not accepted.
+If dp[i]=2, then element is 9, not accepted.
+But when dp[i]=3, then element is 2,5 accepted. as j<i
+'''
